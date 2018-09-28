@@ -5,8 +5,14 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueKonva from 'vue-konva'
+
 export default {
-  name: 'App'
+  name: 'App',
+  created: function () {
+    Vue.use(VueKonva)
+  }
 }
 </script>
 
