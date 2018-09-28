@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import LaunchScreen from '@/components/LaunchScreen'
-import Game from '@/components/Game'
+import Game from '@/components/game/Game'
 
 Vue.use(Router)
 
